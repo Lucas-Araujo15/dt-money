@@ -33,6 +33,7 @@ export const TransactionsContext = createContext({} as TransactionContextType)
 export function TransactionsProvider({ children }: TransactionProviderProps) {
   const [transactions, setTransactions] = useState<Transaction[]>([])
 
+  // useCallback -> Evitar que funções sejam recriadas em memória
   const fetchTransactions = useCallback(async (query?: string) => {
     const response = await api.get('transactions', {
       params: {
@@ -63,8 +64,9 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
   )
 
   useEffect(() => {
+    console.log('teste')
     fetchTransactions()
-  }, [])
+  }, [fetchTransactions])
 
   return (
     <TransactionsContext.Provider
