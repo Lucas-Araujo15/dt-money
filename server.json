@@ -1,28 +1,60 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2023-04-28T16:31:44.556Z"
-        },
-        {
-            "id": 2,
-            "description": "Hamburguer",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2023-04-28T16:30:44.556Z"
-        },
-        {
-            "id": 3,
-            "description": "Ignite Rocketseat",
-            "type": "outcome",
-            "category": "Educação",
-            "price": 1980,
-            "createdAt": "2023-04-23T16:30:44.556Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-04-28T16:31:44.556Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2023-04-28T16:30:44.556Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2023-04-23T16:30:44.556Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-05-02T19:21:45.163Z",
+      "id": 4
+    },
+    {
+      "description": "Intercâmbio",
+      "price": 6000,
+      "category": "Viagem",
+      "type": "outcome",
+      "createdAt": "2023-05-02T19:22:35.690Z",
+      "id": 5
+    },
+    {
+      "description": "PlayStation 5",
+      "price": 4999,
+      "category": "Compra",
+      "type": "income",
+      "createdAt": "2023-05-02T19:45:08.299Z",
+      "id": 6
+    },
+    {
+      "description": "Iphone 12 Mini",
+      "price": 4499,
+      "category": "Compra",
+      "type": "outcome",
+      "createdAt": "2023-05-02T19:47:37.452Z",
+      "id": 7
+    }
+  ]
 }
